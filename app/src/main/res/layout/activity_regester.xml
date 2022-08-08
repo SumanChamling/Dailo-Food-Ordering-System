@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/logoid"
+        android:layout_width="284dp"
+        android:layout_height="159dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/foodlogo" />
+
+    <TextView
+        android:id="@+id/titleid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:fontFamily="@font/cairo_bold"
+        android:text="Dailo Food Ordering System"
+        android:textColor="@color/black"
+
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Dname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/titleid"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/name"
+        android:drawablePadding="15dp"
+        android:hint="FullName"
+        android:paddingLeft="15dp" />
+
+
+    <EditText
+        android:id="@+id/Dusername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Dname"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="15dp"
+        android:hint="Email"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/Dpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Dusername"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="15dp"
+        android:hint="Password"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/Dconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Dpassword"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/confirm"
+        android:drawablePadding="15dp"
+        android:hint="Confirm Password"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/Dphone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Dconfirm"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/phone"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="15dp"
+        android:hint="Phone"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/Daddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Dphone"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/location"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="15dp"
+        android:hint="Address"
+        android:paddingLeft="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGESTER"
+        android:id="@+id/registerbtn"
+        android:layout_below="@id/Daddress"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/forlogin"/>
+
+    <TextView
+        android:id="@+id/signid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/cairo"
+        android:text="If you have an account, Sign in"
+        android:textColor="@color/black"
+        android:textSize="19dp" />
+
+
+
+</RelativeLayout>

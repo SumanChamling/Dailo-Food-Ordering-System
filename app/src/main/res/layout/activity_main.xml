@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoid"
+        android:layout_width="116dp"
+        android:layout_height="61dp"
+        android:src="@drawable/foodlogo" />
+
+    <TextView
+        android:id="@+id/fellid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/baloo_paaji"
+        android:text="Fell Like"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/yourid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/fellid"
+        android:fontFamily="@font/baloo_da"
+        android:text="Your Family"
+        android:textColor="@color/orange"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/getid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yourid"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/cairo"
+        android:text="get your order with in a time"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dailoid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getid"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cairo"
+        android:text="Dailo Food Ordering App"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:id="@+id/startbtn"
+        android:layout_below="@id/dailoid"
+        android:layout_toRightOf="@+id/fellid"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/forlogin"/>
+
+    <ImageView
+        android:id="@+id/bikeid"
+        android:layout_width="370dp"
+        android:layout_height="311dp"
+        android:layout_below="@+id/startbtn"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="58dp"
+        android:src="@drawable/abc" />
+
+</RelativeLayout>

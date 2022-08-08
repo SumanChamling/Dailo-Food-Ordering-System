@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/GheeColor"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/homecolor">
+
+        <TextView
+            android:id="@+id/percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="80dp"
+            android:text="10%"
+            android:textColor="@color/orange"
+            android:textSize="35dp"
+            android:textStyle="italic" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OFF"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:textSize="45dp"
+            android:layout_toRightOf="@+id/percent"
+            android:layout_marginTop="70dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/percent"
+            android:text="for every 3 transactions"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/hey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="55dp"
+            android:layout_below="@+id/trans"
+            android:text="Hey, bey wait na I am on the way"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/above"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="55dp"
+            android:layout_toRightOf="@+id/hey"
+            android:layout_below="@+id/trans"
+            android:text="On orders above Rs 500"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_toRightOf="@+id/hey"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/ch"/>
+
+    </RelativeLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-3dp"
+        android:background="@color/orange">
+
+        <ImageView
+            android:id="@+id/locid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/location" />
+
+        <TextView
+            android:id="@+id/choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/cairo_bold"
+            android:text="CHOOSE YOU DELIVARY"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/locationid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/cairo_bold"
+            android:text="LOCATION"
+            android:textSize="15dp" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nav_top"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="225dp"
+        android:background="@color/orange">
+
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/cairo_bold"
+            android:text="VIEW"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="60dp"
+            android:src="@drawable/logo" />
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_view"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/restru"
+        android:layout_marginLeft="39dp"
+        android:id="@+id/restro"
+        android:layout_marginTop="270dp"/>
+
+    <TextView
+        android:id="@+id/restid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/restro"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="6dp"
+        android:text="Resturands"
+        android:textColor="@color/black" />
+
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_toRightOf="@+id/restro"
+        android:src="@drawable/glose"
+        android:layout_marginLeft="39dp"
+        android:id="@+id/gloceries"
+        android:layout_marginTop="270dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gloid"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@+id/restid"
+        android:text="Gloceries"
+        android:textColor="@color/black"
+        android:layout_below="@+id/gloceries"/>
+
+    <ImageView
+        android:id="@+id/bak"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="270dp"
+        android:layout_toRightOf="@+id/gloceries"
+        android:src="@drawable/bak" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bakid"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/gloid"
+        android:text="Bakeries"
+        android:textColor="@color/black"
+        android:layout_below="@+id/gloceries"/>
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_toRightOf="@+id/bak"
+        android:src="@drawable/drinks"
+        android:id="@+id/drink"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="270dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/driid"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/bakid"
+        android:text="Drinks"
+        android:textColor="@color/black"
+        android:layout_below="@+id/gloceries"/>
+
+
+
+
+
+</RelativeLayout>

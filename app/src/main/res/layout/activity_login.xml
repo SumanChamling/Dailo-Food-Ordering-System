@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/logoid"
+        android:layout_width="301dp"
+        android:layout_height="163dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/foodlogo" />
+
+    <TextView
+        android:id="@+id/foodid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/cairo_bold"
+        android:text="Dailo Food Ordering System"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dusername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/foodid"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/email"
+        android:hint="Email"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/dpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/dusername"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/password"
+        android:hint="Password"
+        android:paddingLeft="15dp" />
+
+    <Button
+        android:id="@+id/logbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/forlogin"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:text="Login" />
+
+<!--    <Spinner-->
+<!--        android:layout_width="207dp"-->
+<!--        android:layout_height="42dp"-->
+<!--        android:id="@+id/spinnerd"-->
+<!--        android:layout_below="@id/logbtn"/>-->
+
+    <TextView
+        android:id="@+id/Accountcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/cairo"
+        android:text="Dailo Food Ordering System"
+        android:textColor="@color/orange"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Accountcheck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/cairo"
+        android:text="Create new Account"
+        android:textColor="@color/orange"
+        android:textSize="17dp" />
+
+
+
+
+
+
+
+</RelativeLayout>

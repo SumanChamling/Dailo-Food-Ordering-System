@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/adminpages/src/main/res/layout/activity_addhotels.xml" value="0.187890625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/adminpages/src/main/res/layout/activity_main.xml" value="0.187890625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/font/aclonica.xml" value="0.20555555555555555" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/activity_admin.xml" value="0.190625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/activity_main.xml" value="0.121875" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/activity_maps.xml" value="0.190625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/activity_regester.xml" value="0.187890625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/activity_resturand.xml" value="0.1" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/activity_user.xml" value="0.190625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/activity_welcome.xml" value="0.1" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/details_item.xml" value="0.190625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/fragment_account.xml" value="0.187890625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/list_item.xml" value="0.1" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy - Copy/app/src/main/res/layout/restrudant_item.xml" value="0.190625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminfoodorder/src/main/res/drawable/bakary.xml" value="0.1" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminfoodorder/src/main/res/drawable/circle_green.xml" value="0.1" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminfoodorder/src/main/res/drawable/circle_orange.xml" value="0.11396396396396397" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminfoodorder/src/main/res/drawable/hotel.xml" value="0.1" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminfoodorder/src/main/res/layout/activity_addhotels.xml" value="0.16" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminfoodorder/src/main/res/layout/activity_image_adder.xml" value="0.1" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminfoodorder/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminpages/src/main/res/drawable/bakary.xml" value="0.109765625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminpages/src/main/res/drawable/circle_green.xml" value="0.109765625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminpages/src/main/res/drawable/circle_orange.xml" value="0.109765625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminpages/src/main/res/drawable/drinks.xml" value="0.109765625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminpages/src/main/res/drawable/gloceries.xml" value="0.109765625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminpages/src/main/res/drawable/hotel.xml" value="0.109765625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminpages/src/main/res/layout/activity_addhotels.xml" value="0.1486111111111111" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/adminpages/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/activity_admin.xml" value="0.190625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/activity_inbox.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/activity_maps.xml" value="0.2" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/activity_regester.xml" value="0.190625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/activity_resturand.xml" value="0.190625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/activity_user.xml" value="0.190625" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/activity_welcome.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/fragment_account.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/fragment_basket..xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/fragment_basket.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/fragment_inbox.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/fragment_more.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/layout/restrudant_item.xml" value="0.1" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering - Copy/app/src/main/res/menu/top_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering/app/src/main/res/drawable/backgroundfood.xml" value="0.2703125" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering/app/src/main/res/drawable/edittext.xml" value="0.2490740740740741" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering/app/src/main/res/drawable/forlogin.xml" value="0.2703125" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering/app/src/main/res/layout/activity_home.xml" value="0.12360688956433637" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering/app/src/main/res/layout/activity_regester.xml" value="0.25052083333333336" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering/app/src/main/res/layout/activity_splash.xml" value="0.4" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering/app/src/main/res/layout/activity_welcome.xml" value="0.25052083333333336" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering/app/src/main/res/menu/menu.xml" value="0.18703703703703703" />
+        <entry key="..\:/Code/Android Development/Project/DailoFoodOrdering/app/src/main/res/menu/my_menu.xml" value="0.18703703703703703" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
